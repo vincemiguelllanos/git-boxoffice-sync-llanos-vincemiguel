@@ -9,5 +9,11 @@ function calculateTicketPrice(quantity, basePrice) {
   }
   return Math.round(total);
 }
+<<<<<<< HEAD
+  return Math.round(total);
+=======
+  return Math.floor(total);
+>>>>>>> ca3ab7c197dfea3382e0c60bcb6a15b7bbc04282
+}
 
 module.exports = { isValidQuantity, calculateTicketPrice };
